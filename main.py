@@ -21,6 +21,8 @@ print(f"Tasks after Removing: {tasks}")
 # sort tasks
 tasks.sort()
 print(f"Tasks after Sorting: {tasks}")
+# add task
+
 # add task (no prompt)
 
 # Write your code here
@@ -31,6 +33,7 @@ print(f"Tasks after Sorting: {tasks}")
 # TODO: Remove & Print a Task selected by User
 
 # TODO: Sort & Print the Tasks
+
 
 
 
