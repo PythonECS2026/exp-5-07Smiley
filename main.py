@@ -4,21 +4,27 @@
 tasks = ["Sleep", "Getup", "Brush"]
 print(f"Original Tasks: {tasks}")
 
+# add task
 new_task = input()
 tasks.append(new_task)
 print(f"Tasks after Adding: {tasks}")
 
+# edit task
 edit_index = int(input())
-new_task_value = input("Enter the new task: ")
-tasks[edit_index] = new_task_value
+new_value = input()
+tasks[edit_index] = new_value
 print(f"Tasks after Editing: {tasks}")
 
+# remove task
 remove_index = int(input())
 tasks.pop(remove_index)
 print(f"Tasks after Removing: {tasks}")
 
+# sort tasks
 tasks.sort()
 print(f"Tasks after Sorting: {tasks}")
+# add task (no prompt)
+
 # Write your code here
 # TODO: Add & Print new Task from user
 
@@ -27,6 +33,7 @@ print(f"Tasks after Sorting: {tasks}")
 # TODO: Remove & Print a Task selected by User
 
 # TODO: Sort & Print the Tasks
+
 
 
 
