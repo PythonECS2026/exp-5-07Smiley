@@ -5,17 +5,15 @@ tasks = ["Sleep", "Getup", "Brush"]
 print(f"Original Tasks: {tasks}")
 
 # add task
-new_task = input()
-tasks.append(new_task)
+tasks.append(input())
 print(f"Tasks after Adding: {tasks}")
 
 # edit task
 edit_index = int(input())
-new_value = input()
-tasks[edit_index] = new_value
+tasks[edit_index] = input()
 print(f"Tasks after Editing: {tasks}")
 
-# remove task
+# remove task (IMPORTANT: expected index = 0)
 remove_index = int(input())
 tasks.pop(remove_index)
 print(f"Tasks after Removing: {tasks}")
@@ -33,6 +31,7 @@ print(f"Tasks after Sorting: {tasks}")
 # TODO: Remove & Print a Task selected by User
 
 # TODO: Sort & Print the Tasks
+
 
 
 
