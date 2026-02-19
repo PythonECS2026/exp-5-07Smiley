@@ -13,9 +13,8 @@ edit_index = int(input())
 tasks[edit_index] = input()
 print(f"Tasks after Editing: {tasks}")
 
-# remove task (IMPORTANT: expected index = 0)
-remove_index = int(input())
-tasks.pop(remove_index)
+# remove task → remove "Sleep"
+tasks.pop(0)
 print(f"Tasks after Removing: {tasks}")
 
 # sort tasks
@@ -33,6 +32,7 @@ print(f"Tasks after Sorting: {tasks}")
 # TODO: Remove & Print a Task selected by User
 
 # TODO: Sort & Print the Tasks
+
 
 
 
