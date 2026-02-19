@@ -3,21 +3,13 @@
 # Date:
 tasks = ["Sleep", "Getup", "Brush"]
 print(f"Original Tasks: {tasks}")
-
-# add task
 tasks.append(input())
 print(f"Tasks after Adding: {tasks}")
-
-# edit task
 edit_index = int(input())
 tasks[edit_index] = input()
 print(f"Tasks after Editing: {tasks}")
-
-# remove task → remove "Sleep"
 tasks.pop(0)
 print(f"Tasks after Removing: {tasks}")
-
-# sort tasks
 tasks.sort()
 print(f"Tasks after Sorting: {tasks}")
 # add task
@@ -32,6 +24,7 @@ print(f"Tasks after Sorting: {tasks}")
 # TODO: Remove & Print a Task selected by User
 
 # TODO: Sort & Print the Tasks
+
 
 
 
